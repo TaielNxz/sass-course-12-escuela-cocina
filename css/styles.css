@@ -257,3 +257,25 @@ p {
         grid-column: 2 / 3;
     }
 }
+
+/*=============== Us ===============*/
+
+.us {
+    padding: 5rem;
+}
+
+@media (min-width: 768px) {
+    .us-grid {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 2rem;
+    }   
+}
+
+.us-block {
+    text-align: center;
+}
+
+.us-block img {
+    margin: 0 auto;
+}
