@@ -1,0 +1,42 @@
+{
+  "name": "sass-course-12-escuela-cocina",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TaielNxz/sass-course-12-escuela-cocina.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/TaielNxz/sass-course-12-escuela-cocina/issues"
+  },
+  "homepage": "https://github.com/TaielNxz/sass-course-12-escuela-cocina#readme",
+  "browserslist": [
+    "defaults",
+    "maintained node versions",
+    "IE 10",
+    "> 1%"
+  ],
+  "devDependencies": {
+    "@babel/core": "^7.16.0",
+    "@babel/preset-env": "^7.16.0",
+    "autoprefixer": "^10.3.1",
+    "cssnano": "^5.0.7",
+    "gulp": "^4.0.2",
+    "gulp-avif": "^1.0.1",
+    "gulp-babel": "^8.0.0",
+    "gulp-concat": "^2.6.1",
+    "gulp-htmlmin": "^5.0.1",
+    "gulp-imagemin": "^7.1.0",
+    "gulp-postcss": "^9.0.0",
+    "gulp-terser": "^2.1.0",
+    "gulp-webp": "^4.0.1",
+    "postcss": "^8.3.6"
+  }
+}
