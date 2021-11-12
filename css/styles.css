@@ -279,3 +279,62 @@ p {
 .us-block img {
     margin: 0 auto;
 }
+
+/*=============== Classes ===============*/
+
+.classes {
+    background-color: var(--grey);
+    padding: 5rem 0;
+}
+
+@media (min-width: 768px) {
+    .classes-grid {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 2rem;
+        align-items: flex-start
+    }   
+}
+
+@media (min-width: 1200px) {
+    .classes-grid {
+        grid-template-columns: repeat(3, 1fr);
+    }   
+}
+
+.class {
+    border: 1px solid darken( var(--grey), 10% );
+    background-color: var(--white);
+}
+
+.class-meta {
+    background-color: var(--primary);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 1rem;
+    color: var(--white);
+}
+
+.class-price {
+    background-color: var(--secondary);
+    padding: .5rem;
+    font-size: 1.2rem;
+    font-weight: 700;
+    color: var(--black);
+    border-radius: 1rem;  
+}
+
+.class-content {
+    padding: 2rem;
+}
+
+.class-content .description {
+    color: var(--primary);
+}
+
+.class-content a {
+    display: block;
+    font-size: 1.6rem;
+    padding: 1rem;
+}
