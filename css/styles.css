@@ -338,3 +338,25 @@ p {
     font-size: 1.6rem;
     padding: 1rem;
 }
+
+/*=============== School ===============*/
+
+.school {
+    background-image: url('../img/chef_bg.jpg');
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    padding: 20rem 0;
+    text-align: center;
+    color: var(--white);
+}
+
+.school h2 {
+    font-weight: 700;  
+}
+
+.school p {
+    font-size: 2.6rem;
+    max-width: 50rem;
+    margin: 0 auto;
+}
