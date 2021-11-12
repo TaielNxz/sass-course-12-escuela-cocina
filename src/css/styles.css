@@ -18,8 +18,8 @@
     ========================================================================== */
 
 html {
-  font-size: 62.5%;
   box-sizing: border-box;
+  font-size: 62.5%;
 }
 
 *,
@@ -35,15 +35,15 @@ body {
 }
 
 img {
-  max-width: 100%;
   display: block;
+  max-width: 100%;
   height: auto;
 }
 
 ul {
   padding: 0;
-  list-style: none;
   margin: 0;
+  list-style: none;
 }
 
 /* ==========================================================================
@@ -76,8 +76,8 @@ h3 {
 }
 
 a {
-  text-decoration: none;
   color: var(--black);
+  text-decoration: none;
 }
 
 p {
@@ -104,10 +104,10 @@ p {
 }
 
 .heading::after {
-  content: "";
   display: block;
   height: 10rem;
   margin: 0 auto;
+  content: "";
   background-repeat: no-repeat;
   background-position: center center;
 }
@@ -125,16 +125,16 @@ p {
 }
 
 .btn {
+  display: inline-block;
   padding: 1.5rem 4rem;
   margin-top: 2rem;
   font-size: 2rem;
   font-weight: 400;
-  display: inline-block;
   font-weight: 700;
-  border: none;
-  transition-property: background-color;
-  transition-duration: 0.3s;
   text-align: center;
+  border: none;
+  transition-duration: 0.3s;
+  transition-property: background-color;
 }
 
 @media (min-width: 768px) {
@@ -144,8 +144,8 @@ p {
 }
 
 .btn-color-1 {
-  background-color: var(--primary);
   color: var(--white);
+  background-color: var(--primary);
 }
 
 .btn-color-1:hover {
@@ -189,8 +189,8 @@ p {
 }
 
 .navigation a {
-  font-size: 2.4rem;
   margin-bottom: 2rem;
+  font-size: 2.4rem;
 }
 
 .navigation:last-of-type {
@@ -223,11 +223,11 @@ p {
 }
 
 .block {
-  height: 40rem;
   display: flex;
   flex-direction: column;
-  justify-content: center;
   align-items: center;
+  justify-content: center;
+  height: 40rem;
   text-align: center;
 }
 
@@ -236,9 +236,9 @@ p {
 }
 
 .block:nth-child(2) {
-  background-size: cover;
-  background-position: center center;
   background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
 }
 
 .notavif.notweb .block:nth-child(2) {
@@ -258,9 +258,9 @@ p {
 }
 
 .block:nth-child(4) {
-  background-size: cover;
-  background-position: center center;
   background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
 }
 
 .notavif.notweb .block:nth-child(4) {
@@ -277,14 +277,14 @@ p {
 
 .block-content {
   max-width: 40rem;
-  border-block: 1px solid var(--white);
-  color: var(--white);
   padding: 1rem 0;
+  color: var(--white);
+  border-block: 1px solid var(--white);
 }
 
 .block-content h2 {
-  text-transform: uppercase;
   margin: 2rem 0;
+  text-transform: uppercase;
 }
 
 .block-content p {
@@ -320,23 +320,23 @@ p {
 }
 
 .us-block img {
-  margin: 0 auto;
   height: 15rem;
+  margin: 0 auto;
 }
 
 /*=============== Classes ===============*/
 
 .classes {
-  background-color: var(--grey);
   padding: 5rem 0;
+  background-color: var(--grey);
 }
 
 @media (min-width: 768px) {
   .classes-grid {
     display: grid;
+    align-items: flex-start;
     grid-template-columns: repeat(2, 1fr);
     gap: 2rem;
-    align-items: flex-start;
   }
 }
 
@@ -347,8 +347,8 @@ p {
 }
 
 .class {
-  border: 1px solid var(--greyDark);
   background-color: var(--white);
+  border: 1px solid var(--greyDark);
 }
 
 .class img {
@@ -356,20 +356,20 @@ p {
 }
 
 .class-meta {
-  background-color: var(--primary);
   display: flex;
-  justify-content: space-between;
   align-items: center;
+  justify-content: space-between;
   padding: 0 1rem;
   color: var(--white);
+  background-color: var(--primary);
 }
 
 .class-price {
-  background-color: var(--secondary);
   padding: 0.5rem;
   font-size: 1.2rem;
   font-weight: 700;
   color: var(--black);
+  background-color: var(--secondary);
   border-radius: 1rem;
 }
 
@@ -383,19 +383,19 @@ p {
 
 .class-content a {
   display: block;
-  font-size: 1.6rem;
   padding: 1rem;
+  font-size: 1.6rem;
 }
 
 /*=============== School ===============*/
 
 .school {
-  background-size: cover;
-  background-position: center center;
-  background-repeat: no-repeat;
   padding: 20rem 0;
-  text-align: center;
   color: var(--white);
+  text-align: center;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
 }
 
 .notavif.notweb .school {
@@ -415,9 +415,9 @@ p {
 }
 
 .school p {
-  font-size: 2.6rem;
   max-width: 50rem;
   margin: 0 auto;
+  font-size: 2.6rem;
 }
 
 /*=============== Footer ===============*/
@@ -435,9 +435,9 @@ p {
 }
 
 .copyright {
-  text-align: center;
-  font-size: 2.4rem;
   margin-top: 3rem;
+  font-size: 2.4rem;
+  text-align: center;
 }
 
 @media (min-width: 768px) {
